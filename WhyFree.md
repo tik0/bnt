@@ -1,0 +1,9 @@
+## Why do I give the code away? ##
+
+  * I was hoping for a Linux-style effect, whereby people would contribute their own Matlab code so that the package would grow. With a few exceptions, this has not happened, although several people have provided bug-fixes (see the [acknowledgements](ThanksAndAcknowledgments.md)). Perhaps the [Open Bayes Project](http://people.cs.ubc.ca/~murphyk/OpenBayes/index.html) will be more succesful in this regard, although the evidence to date is not promising.
+
+  * Knowing that someone else might read your code forces one to document it properly, a good practice in any case, as anyone knows who has revisited old code. In addition, by having many "eye balls", it is easier to spot bugs.
+
+  * I believe in the concept of [reproducible research](http://www-stat.stanford.edu/~donoho/Reports/1995/wavelab.pdf). Good science requires that other people be able to replicate your experiments. Often a paper does not give enough details about how exactly an algorithm was implemented (e.g., how were the parameters chosen? what initial conditions were used?), and these can make a big difference in practice. Hence one should release the code that was actually used to generate the results in one's paper. This also prevents re-inventing the wheel.
+
+  * I was fed up with reading papers where all people do is figure out how to do exact inference and/or learning in a model which is just a trivial special case of a general Bayes net, e.g., input-output HMMs, coupled-HMMs, auto-regressive HMMs. My hope is that, by releasing general purpose software, the field can move on to more interesting questions. As Alfred North Whitehead said in 1911, "Civilization advances by extending the number of important operations that we can do without thinking about them."
